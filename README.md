@@ -42,4 +42,6 @@ We implemented the described procedure on a Logistic Regression model, utilizing
 
 ## Summary
 
-Both models demonstrated strong performance, with Model 2 slightly outperforming due to improved recall for high-risk loans, reducing the risk of false negatives. The evaluation depends on the specific problem, where the trade-off between false positives and false negatives is critical in the context of extending credit. Model 2, with its balanced accuracy and recall improvements, is recommended for mitigating the risk of extending credit to high-risk customers inadvertently.
+Both models demonstrate strong explanatory capabilities, with Model 2 exhibiting a marginal overall improvement, attributed to the dataset's imbalance between healthy and high-risk loans. Despite a modest 1% decrease in precision for high-risk loans in Model 2, there is a notable 8% increase in recall, minimizing the risk of false negatives and erroneous credit extension to high default risk individuals.
+
+The assessment of model performance is context-dependent, emphasizing the importance of accurately predicting healthy versus high-risk loans. The 1% lower precision in high-risk loans for Model 2 may carry significance, particularly if minimizing false positives is a priority. False positives, entailing misclassification of creditworthy customers as high default risks, could impact sales. Ultimately, the model's efficacy is contingent on the specific problem it addre
